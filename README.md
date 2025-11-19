@@ -51,10 +51,15 @@ Figure -02 HALF Subtractor
 **Program:**
 
 module exp3(a,b,s,c);
+
 input a,b;
+
 output s,c;
+
 xor g1(s,a,b);
+
 and g2(c,a,b);
+
 endmodule
 
 **RTL Schematic**
